@@ -1,0 +1,19 @@
+[package]
+name = "cargo-tcr"
+version = "0.1.0"
+authors = ["skim <skim@swainslane.co>"]
+categories = ["development-tools", "development-tools::cargo-plugins"]
+edition = "2018"
+keywords = [
+    "tcr",
+    "test",
+    "commit",
+    "revert",
+]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/sl4m/cargo-tcr"
+description = "A simple cargo subcommand to enable a TCR (test && commit || revert) workflow"
+
+[dependencies]
+shell = { git = "https://github.com/google/rust-shell" }
